@@ -1,13 +1,13 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "Multiplayer Games Server",
+  "description": "Multiplayer Server",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon index.js"
   },
   "type": "commonjs",
-  "author": "",
+  "author": "keshavkamediya",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
